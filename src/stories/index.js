@@ -13,3 +13,13 @@ storiesOf('SplitPanel', module)
             </Split>
         )
     })
+    .add('Horizontal', () => {
+        return (
+            <Split horizontal>
+                <div> panel 1 </div>
+                <div> panel 2 </div>
+                <div> panel 3 </div>
+                <div> panel 4 </div>
+            </Split>
+        )
+    })
